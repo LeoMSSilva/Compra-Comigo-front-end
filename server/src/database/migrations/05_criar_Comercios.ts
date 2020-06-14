@@ -10,6 +10,10 @@ export async function up (knex: Knex) {
         .notNullable()
         .references('id')
         .inTable('CategoriasDeProduto');
+        table.integer('SubCategoriasDeProduto')
+        .notNullable()
+        .references('id')
+        .inTable('SubCategoriasDeProduto');
         table.integer('idEnderecos')
         .notNullable()
         .references('id')
