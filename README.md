@@ -1,5 +1,7 @@
 # Compra Comigo
 
+<img src="./imagens/logo.jpeg" width="100%" height="100%">
+
 ## Integrantes do time:
 
 * [Leonardo Mendonça Santos da Silva](https://github.com/LeoMSSilva)
