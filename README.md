@@ -1,6 +1,6 @@
 # Compra Comigo
 
-<img src="./imagens/logo.jpeg" width="100%" height="100%">
+<img src="./imagens/logo.fw.svg" width="100%" height="100%">
 
 ## Integrantes do time:
 
