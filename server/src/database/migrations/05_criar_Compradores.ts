@@ -1,20 +1,19 @@
 import Knex from 'knex';
 
 export async function up (knex: Knex) { 
-    return knex.schema.createTable('loja_items', table => {
+    return knex.schema.createTable('Compradores', table => {
         table.increments('id').primary();
-
-        table.integer('loja_id')
+        table.integer('idEnderecos')
         .notNullable()
         .references('id')
-        .inTable('lojas');
-        table.integer('item_id')
+        .inTable('endereco');
+        table.integer('idLogins')
         .notNullable()
         .references('id')
-        .inTable('items');;
+        .inTable('login');
     });
 }
 
 export async function down(knex: Knex) {
-    return knex.schema.dropTable('loja_items');
+    return knex.schema.dropTable('Compradores');
 }
