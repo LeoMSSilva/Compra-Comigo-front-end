@@ -1,7 +1,5 @@
 # Compra Comigo
 
-<img src="./perfil.svg" width="100%" height="100%">
-
 ## Integrantes do time:
 
 * [Leonardo Mendonça Santos da Silva](https://github.com/LeoMSSilva)
@@ -29,3 +27,15 @@ Para o desenvolvimento do projeto foram utilizados as seguintes stacks:
 * Knex
 * Typescript
 * Sqlite
+
+##Para rodar o projeto execute os seguintes comandos
+
+npm i
+
+Servidor:
+
+npm run ativar
+
+Front-End:
+
+npm start
