@@ -5,7 +5,7 @@ export async function seed(knex: Knex) {
         { nome: 'Alimentos'},
         { nome: 'Confeitaria'},
         { nome: 'Sorveteria'},
-        { nome: 'Açougue'}
+        { nome: 'Açougue'},
         { nome: 'Vestuário'},
         { nome: 'Sapataria'},
         { nome: 'Beleza'},

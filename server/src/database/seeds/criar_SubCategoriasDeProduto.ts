@@ -1,4 +1,4 @@
-criar_SubCategoriasDeProdutoimport Knex from 'knex';
+import Knex from 'knex';
 
 export async function seed(knex: Knex) {
     await knex('SubCategoriasDeProduto').insert([
